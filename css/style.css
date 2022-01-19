@@ -30,7 +30,7 @@ nav ul li a {
 }
 
 .navbar {
-    background: #7C99AC;
+    background: #1f2020;
     padding: 3rem 2rem;
     height: 0rem;
     min-height: 8.5vh;
@@ -105,4 +105,18 @@ nav .navbar-toggler {
 
 section .home {
     padding-top: 500px;
+}
+
+
+/* === SCROLL UP === */
+
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: 5rem;
+    background-color: #e74c3c;
+    opacity: .8;
+    padding: 0.3rem;
+    border-radius: .4rem;
+    transition: .4s;
 }
