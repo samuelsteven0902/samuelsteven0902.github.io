@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 html,
 body {
     font-family: 'Poppins';
@@ -30,10 +31,10 @@ nav ul li a {
 }
 
 .navbar {
-    background: #1f2020;
+    background: #041C32;
     padding: 3rem 2rem;
     height: 0rem;
-    min-height: 8.5vh;
+    min-height: 13vh;
 }
 
 .navbar-nav {
@@ -58,8 +59,10 @@ nav ul li a {
 }
 
 nav .navbar-brand {
-    font-size: 2rem;
-    color: #D3DEDC;
+    font-size: 3rem;
+    padding-left: 5rem;
+    color: #ECB365;
+    font-family: 'Neonderthaw', cursive;
 }
 
 nav .navbar-toggler {
@@ -74,7 +77,7 @@ nav .navbar-toggler {
     width: 22px;
     height: 2px;
     border: 1px;
-    background: #7C99AC;
+    background: #ECB365;
 }
 
 .navbar-toggler span+span {
@@ -95,28 +98,57 @@ nav .navbar-toggler {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    border-top: 4px solid #7C99AC;
+    border-top: 15px solid #ECB365;
+    color: #ECB365;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:active {
-    border-top: 4px solid #7C99AC;
-    color: #7C99AC;
+    border-top: 4px solid #ECB365;
+    color: #ECB365;
 }
 
 section .home {
     padding-top: 500px;
 }
 
+.home-text span {
+    color: #ECB365;
+}
+
+#about {
+    background-color: #064663;
+}
+
+#about h1 {
+    font-size: 5rem;
+    color: #ECB365;
+    padding-bottom: 3rem;
+}
+
 
 /* === SCROLL UP === */
 
-.scrollup {
+.scrollUp {
     position: fixed;
-    right: 1rem;
-    bottom: 5rem;
-    background-color: #e74c3c;
+    right: 2rem;
+    bottom: -20%;
+    background-color: #041C32;
     opacity: .8;
-    padding: 0.3rem;
+    padding: 0.6rem;
     border-radius: .4rem;
     transition: .4s;
+}
+
+.scrollUp:hover {
+    background-color: #064663;
+}
+
+.scrollup__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #fff;
+}
+
+.show-scroll {
+    bottom: 3rem;
 }
