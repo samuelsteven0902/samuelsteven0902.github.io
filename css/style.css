@@ -115,6 +115,16 @@ section .home {
     color: #ECB365;
 }
 
+#home .btn {
+    transition: .5s;
+    border: #ECB365;
+}
+
+#home .btn:hover {
+    background-color: #ECB365;
+    transform: translateY(-8px);
+}
+
 #about {
     background-color: #064663;
 }
@@ -123,6 +133,47 @@ section .home {
     font-size: 5rem;
     color: #ECB365;
     padding-bottom: 3rem;
+}
+
+#about .btn {
+    transition: .5s;
+    border: #ECB365;
+}
+
+#about .btn:hover {
+    background-color: #ECB365;
+    transform: translateY(-8px);
+}
+
+#services h1 {
+    font-size: 5rem;
+}
+
+#services .kartu .service-item {
+    transition: .5s;
+    overflow: hidden;
+}
+
+#services .kartu .service-item:hover {
+    transform: translateY(-10px);
+    color: #fff;
+}
+
+#services .kartu .service-item span {
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #ECB365;
+    transition: width 0.5s, height 0.5s;
+    z-index: -1;
+}
+
+#services .kartu .service-item span {
+    width: 300px;
+    height: 300px;
 }
 
 
