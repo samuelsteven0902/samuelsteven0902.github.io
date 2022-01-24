@@ -18,13 +18,15 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png">
 
+
+
     <title>Samuel Steven Prisma Hasiyono</title>
 </head>
 
 <body>
 
     <!-- Navbar Awal -->
-    <nav class="navbar navbar-expand-lg header-nav fixed-top shadow-lg fixed-top">
+    <nav class="navbar navbar-expand-lg header-nav fixed-top shadow-sm fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Samuel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +38,7 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo03">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link nav-top" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -45,7 +47,7 @@
                         <a class="nav-link" href="#services">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portofolio">Portofolio</a>
+                        <a class="nav-link" href="#portofolio">Project</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -59,9 +61,9 @@
 
     <!-- Home -->
     <section class="home" id="home">
-        <div class="container-lg">
+        <div class="container-lg mt-3">
             <div class="row min-vh-100 align-items-center align-content-center">
-                <div class="col-md-6 mt-5 mt-md-0">
+                <div class="col-md-6 mt-5 mt-md-0 ">
                     <div class="home-img text-center">
                         <img src="img/profil.png" class="rounded-circle mw-100" alt="">
                     </div>
@@ -197,11 +199,12 @@
 
     <!-- Portofolio -->
     <section class="portofolio bg-light py-5" id="portofolio">
-        <div class="container-lg py-4">
-            <div class="row justify-content-center">
+        <div class="container-lg py-5">
+            <div class="row justify-content-left">
                 <div class="col-lg-8">
-                    <div class="section-title text-center">
-                        <h2 class="fw-bold mb-5">My Portofolio</h2>
+                    <div class="section-title text-sm-start">
+                        <p class="text-muted pt-5">WATCH MY</p>
+                        <h1 class="fw-bold mb-5">PROJECT</h1>
                     </div>
                 </div>
             </div>
@@ -258,10 +261,9 @@
         <div class="container-lg py-4">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="section-title text-center">
-                        <h2 class="fw-bold mb-5">Contact
-                            <Menu></Menu>
-                        </h2>
+                    <div class="section-title text-sm-center">
+                        <p class="text-muted pt-5">YOU CAN</p>
+                        <h1 class="fw-bold mb-5">CONTACT</h1>
                     </div>
                 </div>
             </div>
@@ -311,10 +313,25 @@
 
 
 </body>
+
+<!-- Java Script -->
 <script src="js/script.js"></script>
+
+<!-- script -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop()) {
+            $('nav').addClass('black');
+        } else {
+            $('nav').removeClass('black');
+        }
+    })
+</script>
+
+
+<!-- BS5 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-
 
 <!-- JQUERY -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
