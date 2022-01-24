@@ -184,6 +184,11 @@ section .home {
     height: 300px;
 }
 
+.portofolio-item img:hover {
+    transition: .8s;
+    size: 80%;
+}
+
 
 /* === SCROLL UP === */
 
