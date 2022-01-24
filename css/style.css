@@ -52,6 +52,7 @@ nav.black {
 
 nav.black ul li a {
     color: #D3DEDC;
+    transition: 0.5s;
 }
 
 .navbar-nav {
@@ -107,8 +108,6 @@ nav .navbar-toggler {
     width: 10px;
     margin-left: 10px;
 }
-
-nav.black .navbar-nav .nav-link {}
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 2rem 1rem;
