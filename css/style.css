@@ -28,7 +28,7 @@ ul {
 
 .navbar ul li a {
     transition: .5s;
-    color: #041C32;
+    color: #064663;
 }
 
 nav ul li {
@@ -218,12 +218,14 @@ section .home {
 
 #services h1 {
     font-size: 5rem;
+    color: #064663;
 }
 
 #services .kartu .service-item {
     transition: .5s;
     overflow: hidden;
     position: relative;
+    color: #064663;
 }
 
 #services .kartu .service-item:hover {
@@ -260,12 +262,24 @@ section .home {
     size: 80%;
 }
 
+#portofolio .section-title {
+    border-left: 10px solid #041C32;
+}
+
+#portofolio p {
+    padding-left: 1rem;
+}
+
 #portofolio h1 {
+    border-left: 10px solid #041C32;
     font-size: 5rem;
+    margin-left: 3px;
+    color: #064663;
 }
 
 #contact h1 {
     font-size: 5rem;
+    color: #064663;
 }
 
 

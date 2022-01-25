@@ -18,6 +18,9 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png">
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
     <title>Samuel Steven Prisma Hasiyono</title>
@@ -63,13 +66,13 @@
     <section class="home" id="home">
         <div class="container-lg mt-3">
             <div class="row min-vh-100 align-items-center align-content-center">
-                <div class="mt-5 mt-md-0 ">
+                <div class="col-md-6 mb-5 mt-md-0 ">
                     <div class="home-img text-center">
                         <img src="img/shape1.png" alt="shape" class="shape">
                         <img src="img/profil4.png" class="profil rounded-circle mw-100" alt="profil">
                     </div>
                 </div>
-                <div class="mt-5 mt-md-0 order-md-first">
+                <div class="col-md-6 mt-5 ms-auto mt-md-0 order-md-first">
                     <div class="home-text">
                         <p class="text-muted mb-1">Hi, I'm</p>
                         <h1 class="text-secondary text-uppercase fs-1 fw-bold">website <span>Developer</span> </h1>
@@ -90,7 +93,7 @@
         <div class="container-lg py-4 text-white">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="section-title text-center">
+                    <div class="section-title text-center " data-aos="zoom-in-down" data-aos-duration="1200">
                         <p class="text-muted">GET TO KNOW</p>
                         <h1 class="fw-bold  mb-5">About Me</h1>
                     </div>
@@ -203,7 +206,7 @@
             <div class="row justify-content-left">
                 <div class="col-lg-8">
                     <div class="section-title text-sm-start">
-                        <p class="text-muted pt-5">WATCH MY</p>
+                        <p class="text-muted pt-3">WATCH MY</p>
                         <h1 class="fw-bold mb-5">PROJECT</h1>
                     </div>
                 </div>
@@ -327,6 +330,12 @@
             $('nav').removeClass('black');
         }
     })
+</script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 
 
