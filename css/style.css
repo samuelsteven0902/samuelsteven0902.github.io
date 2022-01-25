@@ -147,6 +147,44 @@ section .home {
     transform: translateY(-8px);
 }
 
+#home .home-img {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+#home .home-img img {
+    height: 100%;
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+#home .home-img:hover .shape {
+    bottom: 40px;
+}
+
+#home .home-img:hover .profil {
+    left: 50%;
+}
+
+.home {
+    display: grid;
+    grid-template-areas: 'home-img home-text';
+}
+
+.home .home-img {
+    grid-area: home-img;
+}
+
+.home .home-text {
+    grid-area: home-text;
+}
+
 #about {
     background-color: #064663;
 }
@@ -165,6 +203,17 @@ section .home {
 #about .btn:hover {
     background-color: #ECB365;
     transform: translateY(-8px);
+}
+
+#about .social-link {
+    padding: 0rem 3rem;
+    transition: 0.8s;
+}
+
+#about .social-link a i:hover {
+    transition: 1s;
+    padding: 0rem 1rem;
+    color: #ECB365;
 }
 
 #services h1 {
@@ -245,4 +294,13 @@ section .home {
 
 .show-scroll {
     bottom: 3rem;
+}
+
+
+/* responsive */
+
+@media (max-width: 500px) {
+    .home {
+        grid-template-areas: 'home-img' 'home-text';
+    }
 }

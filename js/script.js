@@ -5,3 +5,7 @@ function scrollUp() {
     else scrollUp.classList.remove('show-scroll');
 }
 window.addEventListener('scroll', scrollUp)
+
+$(document).ready(function() {
+    $(this).scrollTop(0);
+});
