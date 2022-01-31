@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
     top: 0;
     left: 0;
-    padding-right: 0 !important
+    padding-right: 0 !important;
 }
 
 a {
@@ -114,6 +114,7 @@ nav .navbar-toggler {
     padding: 2rem 1rem;
     font-size: 1.4rem;
     position: relative;
+    border-top: 0px solid #ECB365;
 }
 
 .navbar-expand-lg .navbar-nav .nav-top {
@@ -215,6 +216,74 @@ section .home {
     transition: 1s;
     padding: 0rem 1rem;
     color: #ECB365;
+}
+
+.skill-item .progress-bar-html {
+    animation: html 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: #fff;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+.skill-item .progress-bar-css {
+    animation: css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: #fff;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes css {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+.skill-item .progress-bar-js {
+    animation: js 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: #fff;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes js {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.skill-item .progress-bar-php {
+    animation: php 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: #fff;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes php {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
 }
 
 #services h1 {
