@@ -581,7 +581,7 @@
             <div class="row justify-content-center ">
                 <div class="col-md-6 ">
                     <!-- <form action="https://formsubmit.co/ad2ef5722430574ee9800588e48b24fe" method="POST"> -->
-                        <form onsubmit="sendEMail(); reset();  return false;"></form>
+                        <form onsubmit="sendEmail(); reset(); return false;">
                         <div class="mb-3 ">
                             <label for="name " class="form-label ">Full Name :</label>
                             <input type="text " class="form-control " id="name" name="Name" aria-describedby="name ">
@@ -594,8 +594,6 @@
                             <label for="pesan " class="form-label ">Messages :</label>
                             <textarea name="" id="pesan " class="form-control" rows="3 "></textarea>
                         </div>
-
-
                         <button type="submit" class="btn btn-secondary">Submit</button>
                     </form>
                 </div>
@@ -607,18 +605,18 @@
     <script>
         function sendEmail() {
             Email.send({
-            Host : "smtp.gmail.com",
-            Username : "samuelstev0902@gmail.com",
-            Password : "Lovebeat990",
-            To : 'samuelstev0902@gmail.com',
-            From : document.getElementById("email").value ,
-            Subject : "New Contact From Portofolio",
-            Body : "Name: " + document.getElementById("name").value 
-                + "<br> Email: " +document.getElementById("email").value
-                + "<br> Message" +document.getElementById("pesan").value
-            }).then(
-            message => alert("message send successfully")
-            );
+                Host : "smtp.gmail.com",
+                Username : "samuelstev0902@gmail.com",
+                Password : "Lovebeat990",
+                To : 'samuelstev0902@gmail.com',
+                From : document.getElementById("email").value ,
+                Subject : "New Contact From Portofolio",
+                Body : "Name: " + document.getElementById("name").value 
+                    + "<br> Email: " +document.getElementById("email").value
+                    + "<br> Message" +document.getElementById("pesan").value
+                }).then(
+                message => alert("message send successfully")
+                );
         }
     </script>
 
