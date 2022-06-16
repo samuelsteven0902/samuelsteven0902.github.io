@@ -133,6 +133,7 @@ nav .navbar-toggler {
 
 section .home {
   padding-top: 500px;
+  background-image: url("bg-1.png");
 }
 
 .home-text span {
@@ -204,7 +205,6 @@ section .home {
 .skill-item .progress-bar-html {
   animation: html 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
-  background: #fff;
   height: 20px;
   width: 0;
 }
@@ -221,7 +221,6 @@ section .home {
 .skill-item .progress-bar-css {
   animation: css 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
-  background: #fff;
   height: 20px;
   width: 0;
 }
@@ -238,7 +237,6 @@ section .home {
 .skill-item .progress-bar-js {
   animation: js 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
-  background: #fff;
   height: 20px;
   width: 0;
 }
@@ -248,14 +246,13 @@ section .home {
     width: 0;
   }
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 
 .skill-item .progress-bar-php {
   animation: php 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
-  background: #fff;
   height: 20px;
   width: 0;
 }
@@ -310,8 +307,20 @@ section .home {
   height: 300px;
 }
 
-#skill {
+#skill .panel{
+  background-color: #ecb365;
+  margin-top: -50px;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 15px;
+  transition: all 0.5s ease;
+}
+
+#skill .panel:hover{
   background-color: #064663;
+  transition: all 0.5s ease;
+
 }
 
 #skill h1 {
@@ -320,12 +329,16 @@ section .home {
   padding: 0rem 1rem
 }
 
-#skill .img img {
-  padding: 0rem 3rem
+#skill img{
+  padding: 0rem 13rem
   width: 3px,
   height: 3px
   
   
+}
+
+#services .cartu:hover{
+  transform: translateY(-8px)
 }
 
 
@@ -423,4 +436,9 @@ section .home {
   .home {
     grid-template-areas: "home-img" "home-text";
   }
+}
+
+
+.footer {
+  background:ecb365;
 }

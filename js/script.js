@@ -9,3 +9,4 @@ window.addEventListener('scroll', scrollUp)
 $(document).ready(function() {
     $(this).scrollTop(0);
 });
+

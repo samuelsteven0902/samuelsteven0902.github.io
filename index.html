@@ -63,13 +63,13 @@
     <!-- Navbar Awal -->
 
     <!-- Home -->
-    <section class="home" id="home">
-        <div class="container-lg mt-3">
+    <section class="home  justify-content-center" id="home">
+        <div class="d-flex container-lg mt-3 justify-content-center ce">
             <div class="row min-vh-100 align-items-center align-content-center">
                 <div class="col-md-6 mb-5 mt-md-0 ">
-                    <div class="home-img text-center">
+                    <div class="home-img text-center ">
                         <!-- <img src="img/shape1.png" alt="shape" class="shape"> -->
-                        <img src="img/profil4.png" class="profil rounded-circle mw-100" alt="profil">
+                        <img src="img/profill.png" class="profil rounded-circle mw-100" alt="profil" width="70%">
                     </div>
                 </div>
                 <div class="col-md-6 mt-5 ms-auto mt-md-0 order-md-first">
@@ -79,7 +79,7 @@
                         <h2 class="fs-4 ">Samuel Steven Prisma Hasiyono</h2>
                         <p class="mt-4">So you can call me Samuel. Who has passion in website creation and development. </p>
                         <p>The creation and development of the frontend of the website, I am fluent in using html, css and java script and sometimes using react js. Also have basic skills in backend building with php and CodeIgniter 4.</p>
-                        <a href="#portofolio" class="btn btn-secondary px-3 mt-3">My Work</a>
+                        <a href="#portofolio" class="btn btn-secondary px-3 mt-3 ">My Work</a>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                             <i class="fas fa-code "></i>
                         </div>
                         <h3 class="fs-5 py-2 ">Web Developer</h3>
-                        <p class="text-muted ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ducimus.</p>
+                        <p class="text-muted ">I use tailwind and bootstrap 5 for my css framework which is definitely already proficient in using HTML, CSS and Java Script. And for the future I'm learning React JS</p>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4 d-flex justify-content-center">
@@ -193,7 +193,7 @@
                         <div class="icon my-3 fs-2 ">
                             <i class="fas fa-image "></i>
                         </div>
-                        <h3 class="fs-5 py-2 ">Designer</h3>
+                        <h3 class="fs-5 py-2 ">Designer </h3>
                         <p class="text-muted ">In designing I use Photoshop and in making UI/UX I use Figma to work together in groups</p>
                     </div>
                 </div>
@@ -204,24 +204,34 @@
 
 <!-- Skills and Technologies -->
 
-    <section class="skill " id="skill">
-        <div class="container ">
-            <div class="row justify-content-center py-4">
-                <div class="row col-xl-9 mb-3">
-                    <div class="section-title text-center ">
-                        <h1 class="fw-bold mb-4  ">Skills and Technolohies</h1>
-                    </div>
+    <section class="skill py-5 pb" id="skill">
+        <div class="container mx-auto position-relative">
+            <div class="row justify-content-around py-5 rounded-pill panel position-absolute">
+                <div class="row col-xl-9  mb-3 ">
                     <div class="img d-flex justify-content-between ">
                        <img src="./img/Skills and Technologies/React.png" alt="" width="10%" class="">
                        <img src="./img/Skills and Technologies/bootstrap.png" alt="" width="10%" class="">
                        <img src="./img/Skills and Technologies/Tailwind.png" alt="" width="10%" class="">
                        <img src="./img/Skills and Technologies/CI.png" alt="" width="10%" class="">
+                       <img src="./img/Skills and Technologies/github.png" alt="" width="10%" class="">
                        <img src="./img/Skills and Technologies/figma.png" alt="" width="10%" class="">
                        <img src="./img/Skills and Technologies/after-effects.png" alt="" width="10%" class="">
                     </div>
-                  </div>
                 </div>
             </div>
+            <!-- <div class="row justify-content-around py-5 ">
+                <div class="row col-xl-9 mb-3 ">
+                    <div class="img d-flex justify-content-between ">
+                       <img src="./img/Skills and Technologies/React.png" alt="" width="10%" class="">
+                       <img src="./img/Skills and Technologies/bootstrap.png" alt="" width="10%" class="">
+                       <img src="./img/Skills and Technologies/Tailwind.png" alt="" width="10%" class="">
+                       <img src="./img/Skills and Technologies/CI.png" alt="" width="10%" class="">
+                       <img src="./img/Skills and Technologies/github.png" alt="" width="10%" class="">
+                       <img src="./img/Skills and Technologies/figma.png" alt="" width="10%" class="">
+                       <img src="./img/Skills and Technologies/after-effects.png" alt="" width="10%" class="">
+                    </div>
+                </div>
+            </div> -->
         </div>
     </section>
 
@@ -232,7 +242,7 @@
     <!-- Portofolio -->
     <section class="portofolio bg-light py-5 " id="portofolio">
         <div class="container-lg py-5 ">
-            <div class="row justify-content-left ">
+            <div class="row justify-content-left pt-5">
                 <div class="col-lg-8 ">
                     <div class="section-title text-sm-start ">
                         <p class="text-muted pt-3 ">WATCH MY</p>
@@ -580,11 +590,11 @@
             </div>
             <div class="row justify-content-center ">
                 <div class="col-md-6 ">
-                    <!-- <form action="https://formsubmit.co/ad2ef5722430574ee9800588e48b24fe" method="POST"> -->
-                        <form onsubmit="sendEmail(); reset(); return false;">
+                    <form action="">
+                    <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
                         <div class="mb-3 ">
                             <label for="name " class="form-label ">Full Name :</label>
-                            <input type="text " class="form-control " id="name" name="Name" aria-describedby="name ">
+                            <input type="text " class="form-control " id="name" name="Name" aria-describedby="name">
                         </div>
                         <div class="mb-3 ">
                             <label for="email " class="form-label ">Email address :</label>
@@ -592,32 +602,34 @@
                         </div>
                         <div class="mb-3 ">
                             <label for="pesan " class="form-label ">Messages :</label>
-                            <textarea name="" id="pesan " class="form-control" rows="3 "></textarea>
+                            <textarea name="" id="pesan " class="form-control" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-secondary">Submit</button>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-secondary" id="liveAlertBtn">Submit</button>
+                        
                     </form>
+                    
                 </div>
             </div>
         </div>
     </section>
-
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
-        function sendEmail() {
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : "samuelstev0902@gmail.com",
-                Password : "Lovebeat990",
-                To : 'samuelstev0902@gmail.com',
-                From : document.getElementById("email").value ,
-                Subject : "New Contact From Portofolio",
-                Body : "Name: " + document.getElementById("name").value 
-                    + "<br> Email: " +document.getElementById("email").value
-                    + "<br> Message" +document.getElementById("pesan").value
-                }).then(
-                message => alert("message send successfully")
-                );
-        }
+        // function sendEmail() {
+        //     Email.send({
+        //         Host : "smtp.gmail.com",
+        //         Username : "samuelstev0902@gmail.com",
+        //         Password : "Lovebeat990",
+        //         To : 'samuelstev0902@gmail.com',
+        //         From : document.getElementById("email").value ,
+        //         Subject : "New Contact From Portofolio",
+        //         Body : "Name: " + document.getElementById("name").value 
+        //             + "<br> Email: " +document.getElementById("email").value
+        //             + "<br> Message" +document.getElementById("pesan").value
+        //         }).then(
+        //         message => alert("message send successfully")
+        //         );
+        // }
     </script>
 
     <!-- Contact Akhir -->
@@ -640,6 +652,30 @@
             <i class="fas fa-arrow-up scrollup_icon "></i>
         </div>
     </a>
+
+
+<script>
+    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Upss sorry, there is a problem on this contact section!', 'danger')
+  })
+}
+</script>
 
 
 </body>
