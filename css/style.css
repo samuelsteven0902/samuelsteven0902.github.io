@@ -132,8 +132,8 @@ nav .navbar-toggler {
 }
 
 section .home {
-  padding-top: 500px;
-  background-image: url("bg-1.png");
+  padding-top: 500px
+  /* background-image: url("img/bg-1.png"); */
 }
 
 .home-text span {
@@ -173,6 +173,7 @@ section .home {
 
 #about {
   background-color: #064663;
+  
 }
 
 #about h1 {
@@ -266,6 +267,8 @@ section .home {
   }
 }
 
+
+
 #services h1 {
   font-size: 5rem;
   color: #064663;
@@ -309,7 +312,7 @@ section .home {
 
 #skill .panel{
   background-color: #ecb365;
-  margin-top: -50px;
+  margin-top: -40px;
   z-index: 10;
   margin-left: auto;
   margin-right: auto;
@@ -320,21 +323,16 @@ section .home {
 #skill .panel:hover{
   background-color: #064663;
   transition: all 0.5s ease;
+}
 
+.skill .img img{
+  padding: 0px;
 }
 
 #skill h1 {
   font-size: 4rem;
   color: #ecb365;
   padding: 0rem 1rem
-}
-
-#skill img{
-  padding: 0rem 13rem
-  width: 3px,
-  height: 3px
-  
-  
 }
 
 #services .cartu:hover{
